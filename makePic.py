@@ -16,3 +16,4 @@ for i in range(600):
   string += "\n"
 file = open(filename, 'w')
 file.write(string)
+print("file name: " + sys.argv[1])
